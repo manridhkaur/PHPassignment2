@@ -1,4 +1,11 @@
-
+-- phpMyAdmin SQL Dump
+-- version 5.2.1
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Aug 07, 2023 at 08:37 PM
+-- Server version: 10.4.28-MariaDB
+-- PHP Version: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -31,22 +38,22 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `email`, `password_1`) VALUES
-(1, 'manridhkaur98@gmail.com', '$2y$10$NhaGEzR3GY0FnTiDCh0.JeH'),
-(2, 'manridhkaur98@gmail.com', '$2y$10$/OrFKXHhRCQ8JcKQLAvJYO1'),
-(3, 'manridhkaur98@gmail.com', '1234'),
-(4, 'manridhkaur98@gmail.com', '$2y$10$o6qEZkSiW9C6QSH73.9PtOP'),
-(5, 'manridhkaur98@gmail.com', '$2y$10$VIMHL/Z3vZhy7lLzoJxaCuM'),
-(6, 'manridhkaur98@gmail.com', '$2y$10$j8HZRdzuXoKKHpnTmSinBu0'),
-(7, 'manridhkaur98@gmail.com', '$2y$10$94pLod7cSvStbqeGuKUUXeH'),
-(8, 'manridhkaur98@gmail.com', '$2y$10$XuV3EoRwKuIttkwXoGIemue'),
-(9, 'manridhkaur98@gmail.com', '$2y$10$lRY6TxcQmLrjwFYPtMxrheU'),
-(11, 'manridhkaur98@gmail.com', '123'),
-(12, 'manridhkaur98@gmail.com' 'manridhkaur98'),
-(13, 'manridhkaur98@gmail.com', 'gabrielevans418'),
-(14, 'manridhkaur98@gmail.com', ''),
-(15, 'manridhkaur98@gmail.com', ''),
-(16, 'manridhkaur98@gmail.com', '$2y$10$aWv3SfPg8NOAJZnfyO5Y7.S'),
-(17, 'manridhkaur98@gmail.com', '$2y$10$x11AsRTbGcjhAlaHZ.txX.N');
+(1, 'gabrielevans418@gmail.com', '$2y$10$NhaGEzR3GY0FnTiDCh0.JeH'),
+(2, 'gabrielevans418@gmail.com', '$2y$10$/OrFKXHhRCQ8JcKQLAvJYO1'),
+(3, 'gabrielevans418@gmail.com', '1234'),
+(4, 'gabrielevans418@gmail.com', '$2y$10$o6qEZkSiW9C6QSH73.9PtOP'),
+(5, 'gabrielevans418@gmail.com', '$2y$10$VIMHL/Z3vZhy7lLzoJxaCuM'),
+(6, 'gabrielevans418@gmail.com', '$2y$10$j8HZRdzuXoKKHpnTmSinBu0'),
+(7, 'gabrielevans418@gmail.com', '$2y$10$94pLod7cSvStbqeGuKUUXeH'),
+(8, 'gabrielevans418@gmail.com', '$2y$10$XuV3EoRwKuIttkwXoGIemue'),
+(9, 'gabrielevans418@gmail.com', '$2y$10$lRY6TxcQmLrjwFYPtMxrheU'),
+(11, 'gabrielevans418@gmail.com', '123'),
+(12, 'gabrielevans418@gmail.com', 'gabrielevans418'),
+(13, 'gabrielevans418@gmail.com', 'gabrielevans418'),
+(14, 'gabrielevans418@gmail.com', ''),
+(15, 'gabrielevans418@gmail.com', ''),
+(16, 'gabrielevans418@gmail.com', '$2y$10$aWv3SfPg8NOAJZnfyO5Y7.S'),
+(17, 'gabrielevans418@gmail.com', '$2y$10$x11AsRTbGcjhAlaHZ.txX.N');
 
 --
 -- Indexes for dumped tables

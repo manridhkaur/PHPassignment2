@@ -1,16 +1,15 @@
 <?php
 
-// Database connection
-$host = '172.31.22.43';
-$username = "Manridh200538493";
-$password = "LLeiKZf4wD";
-$dbname = "Manridh200538493";
-$dsn = "mysql:host=$host;dbname=$dbname";
+$host = 'localhost';
+$database = 'register'; 
+$username = 'root';
+$password = ''; 
 
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = mysqli_connect($host, $username, $password, $database);
 
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
 }
 ?>
